@@ -30,5 +30,5 @@ def restock_inventory(available_items, inventory_records, current_day):
     else:
         # Add record for non-restocking day
         inventory_records.append((current_day, 0, 0, available_items))
-    
+    ###
     return available_items
